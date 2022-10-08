@@ -42,7 +42,30 @@
 			},
 			"ALIVE_MSG": {
 			"description": "Add Your Alive massage",
-			"required": true,
+			"required": true,{
+  "name": "QEEN TH MINE MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/darkalphaxteam/Cyber-X-Beta-Release",
+  "logo": "https://i.ibb.co/cCnNBPZ/20221005-121833.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
 			"value": "𝙃𝙀𝙇𝙇𝙊 𝙄'𝙈 🕊️🍃 𝙌𝙀𝙀𝙉 𝙏𝙃 𝙈𝙄𝙉𝙀 𝙈𝘿 🍃🕊️"
 			},
 			"MENU_IMAGE": {
